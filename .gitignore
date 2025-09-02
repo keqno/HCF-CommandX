@@ -1,5 +1,4 @@
 target
-*.jar
 dependency-reduced-pom.xml
 .DS_Store
 .classpath
