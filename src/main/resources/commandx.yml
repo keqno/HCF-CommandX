@@ -1,0 +1,167 @@
+reboot:
+  enabled: true
+  max_lifespan: 86400
+world:
+  general:
+    enabled: true
+    disable_piston_breaking_doors: true
+    disable_enderchests: true
+    disable_entity_block_changes: true
+    disable_explosive_exploits: true
+    disable_egg_spawners: true
+    disable_enter_bed_message: true
+    nerf_explosive_damage:
+      enabled: true
+      amount: 0.5
+    wither_spawn_cooldown: true
+    allow_pearling_through_traps: true
+    generate_nether_portal_platforms: true
+    disabled_entities:
+      - 'PHANTOM'
+      - 'ENDERMITE'
+    disabled_spawner_break:
+      - 'CREEPER'
+      - 'ENDERMAN'
+      - 'BLAZE'
+  entitydrops:
+    types:
+      totem:
+        enabled: true
+        chance: 0.25
+  mobstacking:
+    enabled: true
+    stack_interval: 5
+    stack_radius: 3
+    max_stack_size: 100
+    breeding_cooldown: 30
+    stack_nameplate_prefix: '&6x'
+    types:
+      - SKELETON
+      - ZOMBIE
+      - SPIDER
+      - CAVE_SPIDER
+      - COW
+      - CHICKEN
+      - PIG
+      - COD
+      - SALMON
+      - GLOW_SQUID
+      - RABBIT
+      - PUFFERFISH
+      - SHEEP
+      - SQUID
+      - TADPOLE
+      - TROPICAL_FISH
+      - TURTLE
+  exp_bonus:
+    enabled: true
+    modifiers:
+      fortune: 2.5
+      looting: 3.0
+items:
+  velocity:
+    enabled: true
+    enderpearl: 1.4
+    potions: 0.5
+  modifications:
+    enabled: true
+    disable_chorus_fruit_teleport: true
+    disable_fishing_players: true
+    disable_shields: true
+    disable_crossbow_fireworks: true
+    disable_spectral_multishot: true
+    milk_excludes_infinite_effects: true
+    reduce_axe_damage:
+      enabled: true
+      reduction: 0.5
+    reduce_trident_damage:
+      enabled: true
+      reduction: 0.5
+    reduce_mace_damage:
+      enabled: true
+      reduction: 0.25
+      max_damage: 30.0
+combat:
+  potion_precision:
+    enabled: true
+    threshold: 0.6
+    modifier: 0.3
+  elytra:
+    remove_elytra_on_projectile_damage: true
+    remove_elytra_bhopping: true
+    bhop_max_vl: 3
+    bhop_vl_reset_interval: 30
+  regen:
+    enabled: true
+    heal_rate: 3
+  durability:
+    enabled: true
+    reduction: 2
+  knockback:
+    enabled: true
+    ground_check: true
+    values:
+      horizontal: 0.35
+      vertical: 0.35
+      vertical_limit: 0.4
+      extra_horizontal: 0.425
+      extra_vertical: 0.085
+      sprint_reset_modifier: 1.0
+      sprint_modifier: 0.5
+  animation:
+    enabled: true
+    max_reach: 4.5
+    no_damage_ticks: 10
+  enchant_limits:
+    enabled: true
+    limits:
+      KNOCKBACK: 0
+  potion_limits:
+    enabled: true
+    limits:
+      instant_damage:
+        disabled: true
+        amplifiable: false
+        extendable: false
+      slowness:
+        disabled: false
+        amplifiable: false
+        extendable: false
+      poison:
+        disabled: false
+        amplifiable: false
+        extendable: false
+      regeneration:
+        disabled: true
+        amplifiable: false
+        extendable: false
+      weakness:
+        disabled: true
+        amplifiable: false
+        extendable: false
+      slow_falling:
+        disabled: false;
+        amplifiable: false
+        extendable: true
+        can_splash: false
+exploit:
+  enabled: true
+  disable_block_glitching: true
+  disable_pearl_clipping: true
+chat:
+  enabled: true
+  disable_join_leave_messages: true
+  rate_limit:
+    enabled: true
+    delay: 1
+  whitelisted_links:
+    - 'discord.gg'
+    - 'youtube.com'
+    - 'twitch.tv'
+display:
+  tablist:
+    enabled: true
+    header:
+      - '<b><dark_red>Revival Network'
+    footer:
+      - '<dark_aqua>play.hcfrevival.net'
