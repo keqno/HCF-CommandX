@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>gg.hcfactions</groupId>
+    <groupId>gg.warfine</groupId>
     <artifactId>cx</artifactId>
     <version>1.20.5</version>
 
@@ -45,14 +45,14 @@
 
         <!-- bukkit lib -->
         <dependency>
-            <groupId>gg.hcfactions.libs</groupId>
+            <groupId>gg.warfine.libs</groupId>
             <artifactId>bukkit</artifactId>
             <version>1.20.5</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
-            <groupId>gg.hcfactions.libs</groupId>
+            <groupId>gg.warfine.libs</groupId>
             <artifactId>base</artifactId>
             <version>1.20.5</version>
             <scope>provided</scope>
